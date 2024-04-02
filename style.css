@@ -39,7 +39,32 @@ body {
     transform: translateY(7%);
 }
 
-#page1 p {}
+#page1 p {
+    margin-top: 50px;
+    letter-spacing: -0.8px;
+    line-height: 1.3;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.flexible_items {
+    display: flex;
+    width: 700px;
+    height: auto;
+    margin: -44px 0 0 0;
+    justify-content: center;
+}
+
+.flexible_items p span {
+    border: 1px solid #636363;
+    border-radius: 22px;
+    font-size: 15px;
+    font-family: 'neue-haas-grotesk-display' 'sans-serif';
+    padding: 5px 7px;
+    letter-spacing: 3;
+}
 
 #page2 {
     height: 100vh;
