@@ -42,6 +42,12 @@ body {
     transform: translateY(7%);
 }
 
+#page1 .border1 {
+    border: 3px solid #424242;
+    border-radius: 22px;
+    padding: 4px 10px;
+}
+
 #page2 {
     height: 100vh;
     width: 100%;
