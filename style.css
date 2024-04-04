@@ -8,8 +8,16 @@ html,
 body {
     height: 100%;
     width: 100%;
-    color: #fff;
     font-family: gilroy;
+}
+
+nav {
+    position: fixed;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 #page1 {
@@ -28,6 +36,7 @@ body {
 #page1 h1 {
     font-size: 9.9vw;
     font-weight: bolder;
+    color: #fff;
 }
 
 #page1 svg {
@@ -64,15 +73,6 @@ body {
     font-family: 'neue-haas-grotesk-display' 'sans-serif';
     padding: 5px 7px;
     letter-spacing: 3;
-}
-
-
-nav {
-    position: fixed;
-    background-color: red;
-    display: flex;
-    align-items: center;
-    width: 100%;
 }
 
 #page2 {
