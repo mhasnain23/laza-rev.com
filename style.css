@@ -13,12 +13,49 @@ body {
 
 nav {
     position: fixed;
-    background-color: red;
+    background-color: #111;
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
+    padding: 2vw 10.4vw;
+    z-index: 9;
 }
+
+nav h1 {
+    letter-spacing: 2px;
+    font-size: 1.7vw;
+    font-family: 'poppins';
+}
+
+#nav-part2 {
+    display: flex;
+    gap: 25.9px;
+}
+
+#nav-part2 h4 {
+    font-size: 0.867vw;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+#nav-part2 h4:hover {
+    color: #424242;
+}
+
+/* .Lets-Talks {
+    color: #fff;
+    border: 1px solid #0DA34E;
+    cursor: pointer;
+    background-color: #0DA34E;
+    border-radius: 100px;
+    font-size: 14px;
+    padding: 20px 40px;
+} */
 
 #page1 {
     height: 100vh;
